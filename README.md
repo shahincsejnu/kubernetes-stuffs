@@ -1,8 +1,4 @@
-# kubernetes-stuffs
-
-## Description
-
-Here in this repo I will add all the resources that i followed for learning kubernetes and also all the things tha i did during this learning period. 
+# kubernetes-stuffs 
 
 ## Resources
 
@@ -31,4 +27,7 @@ Here in this repo I will add all the resources that i followed for learning kube
     * [Kubectl in Kubernetes](https://www.youtube.com/watch?v=5jo6gNGcs3s&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=12)
     * [Play-With-K8s (PWK) in Kubernetes](https://www.youtube.com/watch?v=YAGIEyNJ3QU&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=13)
     * [Minikube in Kubernetes](https://www.youtube.com/watch?v=U9BF6EpFpDc&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=14)
+    
+- Full Course Videos
+    * [Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do&t=2089s)
     
