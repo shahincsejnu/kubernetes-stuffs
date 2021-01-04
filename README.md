@@ -32,7 +32,8 @@
     * [Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do&t=2089s)
     
     
-- Videos on Kubenetes Concepts (collected from [Alif](https://github.com/spectro30))
+- Kubenetes Concepts (collected from [Alif](https://github.com/spectro30))
+1. Videos
     1. What is Kubernetes: https://www.youtube.com/watch?v=VnvRFRk_51k
     2. Kubernetes Architecture:
         - https://www.youtube.com/watch?v=umXEmn3cMWY
@@ -64,3 +65,48 @@
         - https://www.youtube.com/watch?v=x2sMWUkasoE&t=10s (PV and PVC)
     9. ConfigMap and Secret: 
         - https://www.youtube.com/watch?v=FAnQTgr04mU
+        
+2. Topics
+    1. Overview 
+        1. What is Kubernetes
+        2. Kubernetes Components
+        3. The Kubernetes API
+        4. Working with Kubernetes Objects
+            - Understanding Kubernetes Objects
+            - Kubernetes Object Management
+            - Object Names and IDs
+            - Namespaces
+            - Labels and Selectors
+            - Annotations
+            - Field Selectors
+            - Recommended Labels
+    2. Cluster Architecture
+        1. Nodes
+        2. Control Panel-Node Communication
+        3. Controllers
+        4. Cloud Controller Manager
+    3. Containers
+        1. Images
+        2. Container Environments
+        3. Runtime Class
+        4. Container Lifecycle Hooks
+    4. Workloads
+        1. Pods
+            - Pod Lifecycle
+            - Init Containers
+            - Pod Topology Spread Constraints
+            - Pod Presets
+            - Disruptions
+            - Ephemeral Containers
+        2. Controllers
+            - ReplicaSet
+            - ReplicationController
+            - Deployments
+            - StatefulSets
+            - DaemonSet
+            - Jobs
+            - Garbage Collection
+            - TTL Controller for Finished Resources
+            - CronJob
+    
+    
