@@ -32,7 +32,7 @@
     * [Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do&t=2089s)
     
     
-- Kubenetes Concepts (collected from [Alif](https://github.com/spectro30))
+### Kubenetes Concepts (collected from [Alif](https://github.com/spectro30))
 1. Videos
     1. What is Kubernetes: https://www.youtube.com/watch?v=VnvRFRk_51k
     2. Kubernetes Architecture:
