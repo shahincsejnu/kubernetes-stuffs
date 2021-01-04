@@ -20,6 +20,11 @@ Here in this repo I will add all the resources that i followed for learning kube
     * [What is Kubernetes | Kubernetes explained in 15 mins](https://www.youtube.com/watch?v=VnvRFRk_51k&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
     * [Monolithic Architecture](https://www.youtube.com/watch?v=MPpU8y3ykS4&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=2)
     * [Microservices Architecture](https://www.youtube.com/watch?v=2CAU4xWdKVM&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=3)
+    * [What are Containers?](https://www.youtube.com/watch?v=0aNdTsNdA8E&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=4)
+    * [Physical Servers vs. VM vs. Containers](https://www.youtube.com/watch?v=dq3SpOGDk60&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=5)
+    * [What is Docker? ](https://www.youtube.com/watch?v=2-G6tw0sULs&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=6)
+    * [Container Orchestration Engine (COE)](https://www.youtube.com/watch?v=mrhrsLRRqcM&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=7)
+    * [TOP 3 Container Orchestration Engines in Kubernetes ](https://www.youtube.com/watch?v=SKxJp9XEL6g&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=8)
     
     
     
