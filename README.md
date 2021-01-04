@@ -108,5 +108,57 @@
             - Garbage Collection
             - TTL Controller for Finished Resources
             - CronJob
-    
+    5. Services, Load Balancing, and Networking
+        1. Service
+        2. Service Topology
+        3. EndpointSlices
+        4. DNS for Services and Pods
+        5. Connecting Applications with Services
+        6. Ingress
+        7. Ingress Controllers
+        8. Network Policies
+        9. Adding entries to Pos/etc/hosts with HostAliases
+        10. IPv4/IPv6 dual-stack
+    6. Storage
+        1. Volumes
+        2. Persistent Volumes
+        3. Volume Snapshots
+        4. CSI Volume Cloning
+        5. Storage Classes
+        6. Volume Snapshot Classes
+        7. Dynamic Volume Provisioning
+        8. Node-specific Volume Limits
+    7. Configuration
+        1. Configuration Best Practices
+        2. ConfigMaps
+        3. Secrets
+        4. Managing Resources for Containers
+        5. Pod Overhead
+        6. Resources Bin Packing for Extended Resources
+        7. Organizing Cluster Access Using kubeconfig Files
+        8. Pod Priority and Preemption
+    8. Security
+        1. Overview of Cloud Native Security
+        2. Pod Security Standards
+    9. Policies
+        1. Limit Ranges
+        2. Resource Quotas
+        3. Pod Security Policies
+    10. Scheduling and Eviction
+        1. Kubernetes Scheduler
+        2. Taints and Tolerations
+        3. Assigning Pods to Nodes
+        4. Scheduling Framework
+        5. Scheduler Performance Tuning
+    11. Cluster Administration
+    12. Extending Kubernetes
+        1. Volumes  - 10
+        2. Persistent Volumes 11 
+        3. Volume Snapshots 12 
+        4. CSI Volume Cloning 01
+        5. Storage Classes 02
+        6. Volume Snapshot Classes 03
+        7. Dynamic Volume Provisioning 04
+        8. Node-specific Volume Limits 05
+
     
