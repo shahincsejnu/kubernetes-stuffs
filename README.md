@@ -98,24 +98,24 @@ At first fork this repo, then go through the resources sequentially as they are 
         - [ ] Container Environments
         - [ ] Runtime Class
         - [ ] Container Lifecycle Hooks
-    4. Workloads
-        1. Pods
-            - Pod Lifecycle
-            - Init Containers
-            - Pod Topology Spread Constraints
-            - Pod Presets
-            - Disruptions
-            - Ephemeral Containers
-        2. Controllers
-            - ReplicaSet
-            - ReplicationController
-            - Deployments
-            - StatefulSets
-            - DaemonSet
-            - Jobs
-            - Garbage Collection
-            - TTL Controller for Finished Resources
-            - CronJob
+    - [ ] Workloads
+        - [ ] Pods
+            - [ ] Pod Lifecycle
+            - [ ] Init Containers
+            - [ ] Pod Topology Spread Constraints
+            - [ ] Pod Presets
+            - [ ] Disruptions
+            - [ ] Ephemeral Containers
+        - [ ] Controllers
+            - [ ] ReplicaSet
+            - [ ] ReplicationController
+            - [ ] Deployments
+            - [ ] StatefulSets
+            - [ ] DaemonSet
+            - [ ] Jobs
+            - [ ] Garbage Collection
+            - [ ] TTL Controller for Finished Resources
+            - [ ] CronJob
     5. Services, Load Balancing, and Networking
         1. Service
         2. Service Topology
