@@ -19,7 +19,7 @@ At first fork this repo, then go through the resources sequentially as they are 
     - [ ] Update your app
     
 - Video Tutorials from Youtube
-    - [ ] [Kubernetes Architecture Simplified | K8s Explained in 10 Minutes](https://www.youtube.com/watch?v=8C_SCDbUJTg&pbjreload=101)
+    - [x] [Kubernetes Architecture Simplified | K8s Explained in 10 Minutes](https://www.youtube.com/watch?v=8C_SCDbUJTg&pbjreload=101)
     - [ ] [Kubernetes Concepts Explained in 9 minutes!](https://www.youtube.com/watch?v=QJ4fODH6DXI)
     - [ ] [What is Kubernetes | Kubernetes explained in 15 mins](https://www.youtube.com/watch?v=VnvRFRk_51k&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
     - [ ] [Monolithic Architecture](https://www.youtube.com/watch?v=MPpU8y3ykS4&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=2)
