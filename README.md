@@ -159,14 +159,14 @@ At first fork this repo, then go through the resources sequentially as they are 
         - [ ] Scheduling Framework
         - [ ] Scheduler Performance Tuning
     - [ ] Cluster Administration
-    12. Extending Kubernetes
-        1. Volumes  - 10
-        2. Persistent Volumes 11 
-        3. Volume Snapshots 12 
-        4. CSI Volume Cloning 01
-        5. Storage Classes 02
-        6. Volume Snapshot Classes 03
-        7. Dynamic Volume Provisioning 04
-        8. Node-specific Volume Limits 05
+    - [ ] Extending Kubernetes
+        - [ ] Volumes  - 10
+        - [ ] Persistent Volumes 11 
+        - [ ] Volume Snapshots 12 
+        - [ ] CSI Volume Cloning 01
+        - [ ] Storage Classes 02
+        - [ ] Volume Snapshot Classes 03
+        - [ ] Dynamic Volume Provisioning 04
+        - [ ] Node-specific Volume Limits 05
 
     
