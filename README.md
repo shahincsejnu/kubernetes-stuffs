@@ -14,7 +14,7 @@ At first fork this repo, then go through the resources sequentially as they are 
     - [x] Create a Kubernetes cluster
     - [x] Deploy an app
     - [x] Explore your app
-    - [ ] Expose you app locally
+    - [x] Expose you app locally
     - [ ] Scale up your app
     - [ ] Update your app
     
