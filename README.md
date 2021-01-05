@@ -18,6 +18,8 @@ At first fork this repo, then go through the resources sequentially as they are 
     - [x] Scale up your app
     - [x] Update your app
     
+- [ ] Install `minikube` and run all six kubernetes basics modules in locally
+    
 - Video Tutorials from Youtube
     - [x] [Kubernetes Architecture Simplified | K8s Explained in 10 Minutes](https://www.youtube.com/watch?v=8C_SCDbUJTg&pbjreload=101)
     - [x] [Kubernetes Concepts Explained in 9 minutes!](https://www.youtube.com/watch?v=QJ4fODH6DXI)
