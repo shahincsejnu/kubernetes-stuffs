@@ -2,7 +2,11 @@
 
 ## Description
 
-Collection of the resources sequentially for learning kubernetes.
+Collection of the resources sequentially for learning kubernetes. 
+
+## Instruction for using this repo
+
+At first fork this repo, then go through the resources sequentially as they are given. Everytime when you complete a tutorial tick the checkbox by giving `x` in the `- [ ]` eg. `- [x]` and then push that to your forked repo, by this way you can track your progress.
 
 ## Resources
 
