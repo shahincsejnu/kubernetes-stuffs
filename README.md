@@ -145,20 +145,20 @@ At first fork this repo, then go through the resources sequentially as they are 
         - [ ] Resources Bin Packing for Extended Resources
         - [ ] Organizing Cluster Access Using kubeconfig Files
         - [ ] Pod Priority and Preemption
-    8. Security
-        1. Overview of Cloud Native Security
-        2. Pod Security Standards
-    9. Policies
-        1. Limit Ranges
-        2. Resource Quotas
-        3. Pod Security Policies
-    10. Scheduling and Eviction
-        1. Kubernetes Scheduler
-        2. Taints and Tolerations
-        3. Assigning Pods to Nodes
-        4. Scheduling Framework
-        5. Scheduler Performance Tuning
-    11. Cluster Administration
+    - [ ] Security
+        - [ ] Overview of Cloud Native Security
+        - [ ] Pod Security Standards
+    - [ ] Policies
+        - [ ] Limit Ranges
+        - [ ] Resource Quotas
+        - [ ] Pod Security Policies
+    - [ ] Scheduling and Eviction
+        - [ ] Kubernetes Scheduler
+        - [ ] Taints and Tolerations
+        - [ ] Assigning Pods to Nodes
+        - [ ] Scheduling Framework
+        - [ ] Scheduler Performance Tuning
+    - [ ] Cluster Administration
     12. Extending Kubernetes
         1. Volumes  - 10
         2. Persistent Volumes 11 
