@@ -52,16 +52,16 @@ At first fork this repo, then go through the resources sequentially as they are 
         - [ ] https://www.youtube.com/watch?v=6uvHVVNq34w&t=983s
     - [ ] Kubernetes Configuration(YAML) File:
         - [ ] https://www.youtube.com/watch?v=qmDzcu5uY1I&t=2s
-    5. Kubernetes Services:
-        - https://www.youtube.com/watch?v=5lzUpDtmWgM
-        - https://www.youtube.com/watch?v=J30_ZdaEXbw
-            - https://www.youtube.com/watch?v=eth7osiCryc (NodePort)
-            - https://www.youtube.com/watch?v=dVDElh_Kd48&t=25s(ClusterIP)
-        - Ingress:
-            - https://www.youtube.com/watch?v=80Ew_fsV4rM&t=671s
-            - https://www.youtube.com/watch?v=VicH6KojwCI
-        - EndPoint Slices:
-            - https://nigelpoulton.com/blog/f/kubernetes-endpoint-slices-explained
+    - [ ] Kubernetes Services:
+        - [ ] https://www.youtube.com/watch?v=5lzUpDtmWgM
+        - [ ] https://www.youtube.com/watch?v=J30_ZdaEXbw
+            - [ ] https://www.youtube.com/watch?v=eth7osiCryc (NodePort)
+            - [ ] https://www.youtube.com/watch?v=dVDElh_Kd48&t=25s(ClusterIP)
+        - [ ] Ingress:
+            - [ ] https://www.youtube.com/watch?v=80Ew_fsV4rM&t=671s
+            - [ ] https://www.youtube.com/watch?v=VicH6KojwCI
+        - [ ] EndPoint Slices:
+            - [ ] https://nigelpoulton.com/blog/f/kubernetes-endpoint-slices-explained
     6. Controllers:
         - https://www.youtube.com/playlist?list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ (Watch the videos on following topics from this playlist -  ReplicaSet, ReplicationController, Deployments, DaemonSet, Jobs)
         - https://www.youtube.com/watch?v=pPQKAR1pA9U (StatefulSet)
