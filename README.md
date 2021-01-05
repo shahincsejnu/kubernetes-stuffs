@@ -136,15 +136,15 @@ At first fork this repo, then go through the resources sequentially as they are 
         - [ ] Volume Snapshot Classes
         - [ ] Dynamic Volume Provisioning
         - [ ] Node-specific Volume Limits
-    7. Configuration
-        1. Configuration Best Practices
-        2. ConfigMaps
-        3. Secrets
-        4. Managing Resources for Containers
-        5. Pod Overhead
-        6. Resources Bin Packing for Extended Resources
-        7. Organizing Cluster Access Using kubeconfig Files
-        8. Pod Priority and Preemption
+    - [ ] Configuration
+        - [ ] Configuration Best Practices
+        - [ ] ConfigMaps
+        - [ ] Secrets
+        - [ ] Managing Resources for Containers
+        - [ ] Pod Overhead
+        - [ ] Resources Bin Packing for Extended Resources
+        - [ ] Organizing Cluster Access Using kubeconfig Files
+        - [ ] Pod Priority and Preemption
     8. Security
         1. Overview of Cloud Native Security
         2. Pod Security Standards
