@@ -37,8 +37,8 @@ At first fork this repo, then go through the resources sequentially as they are 
     - [ ] [Kubectl in Kubernetes](https://www.youtube.com/watch?v=5jo6gNGcs3s&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=12)
     - [ ] [Play-With-K8s (PWK) in Kubernetes](https://www.youtube.com/watch?v=YAGIEyNJ3QU&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=13)
     - [ ] [Minikube in Kubernetes](https://www.youtube.com/watch?v=U9BF6EpFpDc&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=14)
-    - [ ] [Kubernetes Components explained! Pods, Services, Secrets, ConfigMap](https://www.youtube.com/watch?v=Krpb44XR0bk&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC&index=2)
-    - [ ] [Pods and Containers - Kubernetes Networking](https://www.youtube.com/watch?v=5cNrTU6o3Fw)
+    - [x] [Kubernetes Components explained! Pods, Services, Secrets, ConfigMap](https://www.youtube.com/watch?v=Krpb44XR0bk&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC&index=2)
+    - [x] [Pods and Containers - Kubernetes Networking](https://www.youtube.com/watch?v=5cNrTU6o3Fw)
     
 - Full Course Videos
     - [ ] [Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do&t=2089s)
