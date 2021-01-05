@@ -15,7 +15,7 @@ At first fork this repo, then go through the resources sequentially as they are 
     - [x] Deploy an app
     - [x] Explore your app
     - [x] Expose you app locally
-    - [ ] Scale up your app
+    - [x] Scale up your app
     - [ ] Update your app
     
 - Video Tutorials from Youtube
