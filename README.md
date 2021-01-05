@@ -62,32 +62,32 @@ At first fork this repo, then go through the resources sequentially as they are 
             - [ ] https://www.youtube.com/watch?v=VicH6KojwCI
         - [ ] EndPoint Slices:
             - [ ] https://nigelpoulton.com/blog/f/kubernetes-endpoint-slices-explained
-    6. Controllers:
-        - https://www.youtube.com/playlist?list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ (Watch the videos on following topics from this playlist -  ReplicaSet, ReplicationController, Deployments, DaemonSet, Jobs)
-        - https://www.youtube.com/watch?v=pPQKAR1pA9U (StatefulSet)
-    7. Kubernetes Namespaces: 
-        - https://www.youtube.com/watch?v=VnvRFRk_51k
-    8. Storage
-        - https://www.youtube.com/watch?v=0swOh5C3OVM (Volume, PV and PVC)
-        - https://www.youtube.com/watch?v=TnfvE8o9wmg ( Volume)
-        - https://www.youtube.com/watch?v=x2sMWUkasoE&t=10s (PV and PVC)
-    9. ConfigMap and Secret: 
-        - https://www.youtube.com/watch?v=FAnQTgr04mU
+    - [ ] Controllers:
+        - [ ] https://www.youtube.com/playlist?list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ (Watch the videos on following topics from this playlist -  ReplicaSet, ReplicationController, Deployments, DaemonSet, Jobs)
+        - [ ] https://www.youtube.com/watch?v=pPQKAR1pA9U (StatefulSet)
+    - [ ] Kubernetes Namespaces: 
+        - [ ] https://www.youtube.com/watch?v=VnvRFRk_51k
+    - [ ] Storage
+        - [ ] https://www.youtube.com/watch?v=0swOh5C3OVM (Volume, PV and PVC)
+        - [ ] https://www.youtube.com/watch?v=TnfvE8o9wmg ( Volume)
+        - [ ] https://www.youtube.com/watch?v=x2sMWUkasoE&t=10s (PV and PVC)
+    - [ ] ConfigMap and Secret: 
+        - [ ] https://www.youtube.com/watch?v=FAnQTgr04mU
         
 2. Topics
-    1. Overview 
-        1. What is Kubernetes
-        2. Kubernetes Components
-        3. The Kubernetes API
-        4. Working with Kubernetes Objects
-            - Understanding Kubernetes Objects
-            - Kubernetes Object Management
-            - Object Names and IDs
-            - Namespaces
-            - Labels and Selectors
-            - Annotations
-            - Field Selectors
-            - Recommended Labels
+    - [ ] Overview 
+        - [ ] What is Kubernetes
+        - [ ] Kubernetes Components
+        - [ ] The Kubernetes API
+        - [ ] Working with Kubernetes Objects
+            - [ ] Understanding Kubernetes Objects
+            - [ ] Kubernetes Object Management
+            - [ ] Object Names and IDs
+            - [ ] Namespaces
+            - [ ] Labels and Selectors
+            - [ ] Annotations
+            - [ ] Field Selectors
+            - [ ] Recommended Labels
     2. Cluster Architecture
         1. Nodes
         2. Control Panel-Node Communication
