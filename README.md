@@ -30,7 +30,7 @@ At first fork this repo, then go through the resources sequentially as they are 
     - [x] [Container Orchestration Engine (COE)](https://www.youtube.com/watch?v=mrhrsLRRqcM&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=7)
     - [x] [TOP 3 Container Orchestration Engines in Kubernetes ](https://www.youtube.com/watch?v=SKxJp9XEL6g&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=8)
     - [x] [What is Kubernetes?](https://www.youtube.com/watch?v=LWq7dg3Yb40&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=9)
-    - [ ] [Kubernetes Architecture Made Easy](https://www.youtube.com/watch?v=_3NUI5vasPk&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=10)
+    - [x] [Kubernetes Architecture Made Easy](https://www.youtube.com/watch?v=_3NUI5vasPk&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=10)
     - [ ] [Installation Methods of Kubernetes](https://www.youtube.com/watch?v=HwVELhvL8uA&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=11)
     - [ ] [Kubectl in Kubernetes](https://www.youtube.com/watch?v=5jo6gNGcs3s&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=12)
     - [ ] [Play-With-K8s (PWK) in Kubernetes](https://www.youtube.com/watch?v=YAGIEyNJ3QU&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=13)
