@@ -127,15 +127,15 @@ At first fork this repo, then go through the resources sequentially as they are 
         - [ ] Network Policies
         - [ ] Adding entries to Pos/etc/hosts with HostAliases
         - [ ] IPv4/IPv6 dual-stack
-    6. Storage
-        1. Volumes
-        2. Persistent Volumes
-        3. Volume Snapshots
-        4. CSI Volume Cloning
-        5. Storage Classes
-        6. Volume Snapshot Classes
-        7. Dynamic Volume Provisioning
-        8. Node-specific Volume Limits
+    - [ ] Storage
+        - [ ] Volumes
+        - [ ] Persistent Volumes
+        - [ ] Volume Snapshots
+        - [ ] CSI Volume Cloning
+        - [ ] Storage Classes
+        - [ ] Volume Snapshot Classes
+        - [ ] Dynamic Volume Provisioning
+        - [ ] Node-specific Volume Limits
     7. Configuration
         1. Configuration Best Practices
         2. ConfigMaps
