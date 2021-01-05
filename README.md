@@ -88,16 +88,16 @@ At first fork this repo, then go through the resources sequentially as they are 
             - [ ] Annotations
             - [ ] Field Selectors
             - [ ] Recommended Labels
-    2. Cluster Architecture
-        1. Nodes
-        2. Control Panel-Node Communication
-        3. Controllers
-        4. Cloud Controller Manager
-    3. Containers
-        1. Images
-        2. Container Environments
-        3. Runtime Class
-        4. Container Lifecycle Hooks
+    - [ ] Cluster Architecture
+        - [ ] Nodes
+        - [ ] Control Panel-Node Communication
+        - [ ] Controllers
+        - [ ] Cloud Controller Manager
+    - [ ] Containers
+        - [ ] Images
+        - [ ] Container Environments
+        - [ ] Runtime Class
+        - [ ] Container Lifecycle Hooks
     4. Workloads
         1. Pods
             - Pod Lifecycle
