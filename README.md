@@ -116,17 +116,17 @@ At first fork this repo, then go through the resources sequentially as they are 
             - [ ] Garbage Collection
             - [ ] TTL Controller for Finished Resources
             - [ ] CronJob
-    5. Services, Load Balancing, and Networking
-        1. Service
-        2. Service Topology
-        3. EndpointSlices
-        4. DNS for Services and Pods
-        5. Connecting Applications with Services
-        6. Ingress
-        7. Ingress Controllers
-        8. Network Policies
-        9. Adding entries to Pos/etc/hosts with HostAliases
-        10. IPv4/IPv6 dual-stack
+    - [ ] Services, Load Balancing, and Networking
+        - [ ] Service
+        - [ ] Service Topology
+        - [ ] EndpointSlices
+        - [ ] DNS for Services and Pods
+        - [ ] Connecting Applications with Services
+        - [ ] Ingress
+        - [ ] Ingress Controllers
+        - [ ] Network Policies
+        - [ ] Adding entries to Pos/etc/hosts with HostAliases
+        - [ ] IPv4/IPv6 dual-stack
     6. Storage
         1. Volumes
         2. Persistent Volumes
