@@ -26,7 +26,7 @@ At first fork this repo, then go through the resources sequentially as they are 
     - [x] [Microservices Architecture](https://www.youtube.com/watch?v=2CAU4xWdKVM&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=3)
     - [x] [What are Containers?](https://www.youtube.com/watch?v=0aNdTsNdA8E&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=4)
     - [x] [Physical Servers vs. VM vs. Containers](https://www.youtube.com/watch?v=dq3SpOGDk60&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=5)
-    - [ ] [What is Docker? ](https://www.youtube.com/watch?v=2-G6tw0sULs&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=6)
+    - [x] [What is Docker? ](https://www.youtube.com/watch?v=2-G6tw0sULs&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=6)
     - [ ] [Container Orchestration Engine (COE)](https://www.youtube.com/watch?v=mrhrsLRRqcM&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=7)
     - [ ] [TOP 3 Container Orchestration Engines in Kubernetes ](https://www.youtube.com/watch?v=SKxJp9XEL6g&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=8)
     - [ ] [What is Kubernetes?](https://www.youtube.com/watch?v=LWq7dg3Yb40&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=9)
