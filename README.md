@@ -1,5 +1,9 @@
 # kubernetes-stuffs 
 
+## Description
+
+Collection of the resources sequentially for learning kubernetes.
+
 ## Resources
 
 - [Kubernetes Basics Modules](https://kubernetes.io/docs/tutorials/kubernetes-basics/) 
