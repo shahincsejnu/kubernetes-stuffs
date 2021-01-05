@@ -37,7 +37,7 @@ At first fork this repo, then go through the resources sequentially as they are 
     - [ ] [Minikube in Kubernetes](https://www.youtube.com/watch?v=U9BF6EpFpDc&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=14)
     
 - Full Course Videos
-    * [Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do&t=2089s)
+    - [ ] [Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do&t=2089s)
     
     
 ### Kubenetes Concepts (collected from [Alif](https://github.com/spectro30))
