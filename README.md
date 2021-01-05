@@ -13,7 +13,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 - [Kubernetes Basics Modules](https://kubernetes.io/docs/tutorials/kubernetes-basics/) 
     - [x] Create a Kubernetes cluster
     - [x] Deploy an app
-    - [ ] Explore your app
+    - [x] Explore your app
     - [ ] Expose you app locally
     - [ ] Scale up your app
     - [ ] Update your app
