@@ -47,11 +47,11 @@ At first fork this repo, then go through the resources sequentially as they are 
         - [ ] https://www.youtube.com/watch?v=umXEmn3cMWY
         - [ ] https://www.youtube.com/watch?v=8C_SCDbUJTg
         - [ ] https://www.youtube.com/watch?v=_3NUI5vasPk&t=780s
-    3. Kubernetes Pods and Containers:
-        - https://www.youtube.com/watch?v=5cNrTU6o3Fw
-        - https://www.youtube.com/watch?v=6uvHVVNq34w&t=983s
-    4. Kubernetes Configuration(YAML) File:
-        - https://www.youtube.com/watch?v=qmDzcu5uY1I&t=2s
+    - [ ] Kubernetes Pods and Containers:
+        - [ ] https://www.youtube.com/watch?v=5cNrTU6o3Fw
+        - [ ] https://www.youtube.com/watch?v=6uvHVVNq34w&t=983s
+    - [ ] Kubernetes Configuration(YAML) File:
+        - [ ] https://www.youtube.com/watch?v=qmDzcu5uY1I&t=2s
     5. Kubernetes Services:
         - https://www.youtube.com/watch?v=5lzUpDtmWgM
         - https://www.youtube.com/watch?v=J30_ZdaEXbw
