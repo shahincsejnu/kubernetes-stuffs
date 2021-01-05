@@ -42,11 +42,11 @@ At first fork this repo, then go through the resources sequentially as they are 
     
 ### Kubenetes Concepts (collected from [Alif](https://github.com/spectro30))
 1. Videos
-    1. What is Kubernetes: https://www.youtube.com/watch?v=VnvRFRk_51k
-    2. Kubernetes Architecture:
-        - https://www.youtube.com/watch?v=umXEmn3cMWY
-        - https://www.youtube.com/watch?v=8C_SCDbUJTg
-        - https://www.youtube.com/watch?v=_3NUI5vasPk&t=780s
+    - [ ] What is Kubernetes: https://www.youtube.com/watch?v=VnvRFRk_51k
+    - [ ] Kubernetes Architecture:
+        - [ ] https://www.youtube.com/watch?v=umXEmn3cMWY
+        - [ ] https://www.youtube.com/watch?v=8C_SCDbUJTg
+        - [ ] https://www.youtube.com/watch?v=_3NUI5vasPk&t=780s
     3. Kubernetes Pods and Containers:
         - https://www.youtube.com/watch?v=5cNrTU6o3Fw
         - https://www.youtube.com/watch?v=6uvHVVNq34w&t=983s
