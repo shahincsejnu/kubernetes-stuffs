@@ -18,9 +18,9 @@ At first fork this repo, then go through the resources sequentially as they are 
 
 ## Installation
 
-- Install [minikube](https://minikube.sigs.k8s.io/docs/start/)
+- [x] Install [minikube](https://minikube.sigs.k8s.io/docs/start/)
     - Minikube is a lightweight Kubernetes implementation that creates a VM on your local machine and deploys a simple cluster containing only one node. 
-- Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- [x] Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
     - The kubectl command line tool lets you control Kubernetes clusters. kubectl is kubernetes command line interface which uses the kubernetes API to interact with the cluster.
 
 
