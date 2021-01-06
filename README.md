@@ -47,6 +47,18 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`curl http://localhost:8001/`| When the kube-proxy is running to see all the endpoints in kube api server|
 |`curl http://localhost:8001/version`| To request an endpoint of the api server, give your desired endpoint instead version|
 
+### Step #03: Explore the App : Viewing Pods and Nodes
+
+|Commands | Uses|
+|---------|-------|
+|`kubectl get <nodes/pods/deployments>`| To see the List of all related(nodes/pods/deployments) resources|
+|`kubectl describe <nodes/pods/deployments>`| To show detailed information about a resource|
+|`kubectl logs $POD_NAME`| To print the logs from a container in a pod. Note: We don’t need to specify the container name, because we only have one container inside the pod.|
+|`kubectl exec`| To execute a command on a container in a pod|
+|`kubectl exec $POD_NAME env`| To view the list of environment variables of the pod|
+|`kubectl exec -ti $POD_NAME bash`| To start a bash session in the pod's container|
+|`exit`| To close your container connection, from inside the container|
+
 
 ## Resources
 
