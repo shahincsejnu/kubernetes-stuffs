@@ -25,15 +25,27 @@ At first fork this repo, then go through the resources sequentially as they are 
 
 ## Commands
 
-### Step #01 : Create a kubernetes cluster
-|Commands|Uses|
-|---------------|----|
-|`minikube version`|Check that minikube is properly installed|
-|`minikube start`|To run kubernetes cluster. You now have a running Kubernetes cluster in your online terminal. |
-|`kubectl version`|To check if kubectl is installed properly.|
-|`kubectl cluster-info`|To view the cluster details|
-|`kubectl get nodes`|To view the nodes in the cluster.|
+### Step #01: Create a kubernetes cluster
 
+|Commands | Uses|
+|---------|-------|
+|`minikube version`|Check that minikube is properly installed|
+|`minikube start`|To run kubernetes cluster. You now have a running Kubernetes cluster in your online terminal. Minikube started a virtual machine for you, and a Kubernetes cluster is now running in that VM.|
+|`minikube ip`| To see the IP of the VM|
+|`kubectl version`|To check if kubectl is installed properly. kubectl is configured and we can see both the version of the client and as well as the server. The client version is the kubectl version; the server version is the Kubernetes version installed on the master. You can also see details about the build.|
+|`kubectl cluster-info`|To view the cluster details|
+|`kubectl get nodes`|To view the nodes in the cluster. This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that its status is ready (it is ready to accept applications for deployment).|
+
+### Step #02: Deploying an App on kubernetes using kubectl
+
+|Commands | Uses|
+|-----------|--------|
+|`kubectl create deployment <deployment_name> <app_image_location>`| To deploy your app on kubernetes. Note that, nclude the full repository url for images hosted outside Docker hub but for images from docker hube just give the repo/image_name| 
+|`kubectl create deployment restapi shahincsejnu/httpapiserver:v1.0.7`| T deploy httpapiserver image on kubernetes|
+|`kubectl get deployment`| To see the list of all your deployments|
+|`kubectl proxy`| Pods that are running inside Kubernetes are running on a private, isolated network. By default they are visible from other pods and services within the same kubernetes cluster, but not outside that network. When we use kubectl, we're interacting through an API endpoint to communicate with our application. We now have a connection between our host (the online terminal) and the Kubernetes cluster. The proxy enables direct access to the API from these terminals. | 
+|`curl http://localhost:8001/`| When the kube-proxy is running to see all the endpoints in kube api server|
+|`curl http://localhost:8001/version`| To request an endpoint of the api server, give your desired endpoint instead version|
 
 
 ## Resources
