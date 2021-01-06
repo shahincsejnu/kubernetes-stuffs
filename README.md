@@ -16,6 +16,14 @@ Kubernetes is container orchestration tools. It offers three most important faci
 
 At first fork this repo, then go through the resources sequentially as they are given. Everytime when you complete a tutorial tick the checkbox by giving `x` in the `- [ ]` eg. `- [x]` and then push that to your forked repo, by this way you can track your progress.
 
+## Installation
+
+- Install [minikube](https://minikube.sigs.k8s.io/docs/start/)
+    - Minikube is a lightweight Kubernetes implementation that creates a VM on your local machine and deploys a simple cluster containing only one node. 
+- Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+    - The kubectl command line tool lets you control Kubernetes clusters. kubectl is kubernetes command line interface which uses the kubernetes API to interact with the cluster.
+
+
 ## Resources
 
 - [Kubernetes Basics Modules](https://kubernetes.io/docs/tutorials/kubernetes-basics/) 
