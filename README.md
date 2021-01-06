@@ -23,6 +23,19 @@ At first fork this repo, then go through the resources sequentially as they are 
 - [x] Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
     - The kubectl command line tool lets you control Kubernetes clusters. kubectl is kubernetes command line interface which uses the kubernetes API to interact with the cluster.
 
+## Commands
+
+### Step #01 : Create a kubernetes cluster
+
+|Commands | Uses|
+|------|-------|
+| `minikube version` | Check that minikube is properly installed |
+| `minikube start` | To run kubernetes cluster. You now have a running Kubernetes cluster in your online terminal. Minikube started a virtual machine for you, and a Kubernetes cluster is now running in that VM. |
+| `kubectl version` |  To check if kubectl is installed properly. kubectl is configured and we can see both the version of the client and as well as the server. The client version is the kubectl version; the server version is the Kubernetes version installed on the master. You can also see details about the build.|
+| `kubectl cluster-info` | To view the cluster details |
+| `kubectl get nodes` | To view the nodes in the cluster. This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that its status is ready (it is ready to accept applications for deployment). |
+
+
 
 ## Resources
 
