@@ -35,6 +35,9 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`kubectl version`|To check if kubectl is installed properly. kubectl is configured and we can see both the version of the client and as well as the server. The client version is the kubectl version; the server version is the Kubernetes version installed on the master. You can also see details about the build.|
 |`kubectl cluster-info`|To view the cluster details|
 |`kubectl get nodes`|To view the nodes in the cluster. This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that its status is ready (it is ready to accept applications for deployment).|
+|`minikube stop`| To halt the cluster|
+|`minikube pause`| Pause kubernetes without impacting deployed applications|
+|`minikube delete --all`| To delete all of the minikube clusters|
 
 ### Step #02: Deploying an App on kubernetes using kubectl
 
@@ -51,13 +54,35 @@ At first fork this repo, then go through the resources sequentially as they are 
 
 |Commands | Uses|
 |---------|-------|
-|`kubectl get <nodes/pods/deployments>`| To see the List of all related(nodes/pods/deployments) resources|
+|`kubectl get <nodes/pods/deployments/services>`| To see the List of all related(nodes/pods/deployments) resources|
 |`kubectl describe <nodes/pods/deployments>`| To show detailed information about a resource|
 |`kubectl logs $POD_NAME`| To print the logs from a container in a pod. Note: We don’t need to specify the container name, because we only have one container inside the pod.|
 |`kubectl exec`| To execute a command on a container in a pod|
 |`kubectl exec $POD_NAME env`| To view the list of environment variables of the pod|
 |`kubectl exec -ti $POD_NAME bash`| To start a bash session in the pod's container|
 |`exit`| To close your container connection, from inside the container|
+
+### Step #04: Expose you app publicly : using a service to expose your app
+
+|Commands | Uses|
+|---------|-------|
+|`kubectl get services`| To see the list of services. Note that, Although each Pod has a unique IP address, those IPs are not exposed outside the cluster without a Service. Services allow your applications to receive traffic.|
+|`kubectl deployment/<deployment_name> --type="NodePort" --port 8080`| o create a new service and expose it to external traffic we’ll use the expose command with NodePort as parameter (minikube does not support the LoadBalancer option yet).|
+|`kubectl describe services/<service_name>`| To find out what port was opened externally (by the NodePort option) |
+|`curl $(minikube ip):$NODE_PORT`| Now we can test that the app is exposed outside of the cluster using curl, the IP of the Node and the externally exposed port:|
+|`curl $(minikube ip):$NODE_PORT/api/articles`| |
+|`kubectl describe deployment`| The Deployment created automatically a label for our Pod. With describe deployment command you can see the name of the label:|
+|`kubectl get pods -l <label_values>`| |
+|`kubectl get pods -l run=kubernetes-bootcamp`| Let’s use this label to query our list of Pods. We’ll use the kubectl get pods command with -l as a parameter, followed by the label values:|
+|`kubectl get services -l run=kubernetes-bootcamp`| we can do same to list the existing services|
+|`kubectl label pod $POD_NAME <new_label>`| To apply a new label we use the label command followed by the object type, object name and the new label. This will apply a new label to our Pod (we pinned the application version to the Pod), and we can check it with the describe pod command: |
+|`kubectl describe pods $POD_NAME`| We see here that the label is attached now to our Pod. And we can query now the list of pods using the new label:|
+|`kubectl get pods -l <new_lable>`| |
+|`kubectl delete service -l <label_name>`| To delete Services you can use the delete service command. Labels can be used also here:|
+|`kubectl get services`| Confirm that service is gone|
+|`curl $(minikube ip):$NODE_PORT`| This confirms that our Service was removed. To confirm that route is not exposed anymore you can curl the previously exposed IP and port: We see here that the application is up. This is because the Deployment is managing the application. To shut down the application, you would need to delete the Deployment as well.|
+|`kubectl exec -ti $POD_NAME curl localhost:8080`| You can confirm that the app is still running with a curl inside the pod:|
+
 
 
 ## Resources
