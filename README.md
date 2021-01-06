@@ -32,6 +32,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`minikube version`|Check that minikube is properly installed|
 |`minikube start`|To run kubernetes cluster. You now have a running Kubernetes cluster in your online terminal. Minikube started a virtual machine for you, and a Kubernetes cluster is now running in that VM.|
 |`minikube ip`| To see the IP of the VM|
+|`minikube dashboard`| To see the dashboard|
 |`kubectl version`|To check if kubectl is installed properly. kubectl is configured and we can see both the version of the client and as well as the server. The client version is the kubectl version; the server version is the Kubernetes version installed on the master. You can also see details about the build.|
 |`kubectl cluster-info`|To view the cluster details|
 |`kubectl get nodes`|To view the nodes in the cluster. This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that its status is ready (it is ready to accept applications for deployment).|
@@ -82,6 +83,21 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`kubectl get services`| Confirm that service is gone|
 |`curl $(minikube ip):$NODE_PORT`| This confirms that our Service was removed. To confirm that route is not exposed anymore you can curl the previously exposed IP and port: We see here that the application is up. This is because the Deployment is managing the application. To shut down the application, you would need to delete the Deployment as well.|
 |`kubectl exec -ti $POD_NAME curl localhost:8080`| You can confirm that the app is still running with a curl inside the pod:|
+
+### Step #05: Scale you app : Running multiple instances of your app
+
+|Command | Uses|
+|-------|-------|
+|`kubectl get rs`| To see the ReplicaSet created by the Deployment. Notice that the name of the ReplicaSet is always formatted as [DEPLOYMENT-NAME]-[RANDOM-STRING]. The random string is randomly generated and uses the pod-template-hash as a seed.|
+|`kubectl scale deployments/<deployment_name> --replicas=4`| To scale up we'll use the kubectl scale command, followed by the deployment type, name and desired number of instances|
+|`kubectl get deployments`| Now see the deployment list|
+|`kubectl get pods -o wide`| Next, let’s check if the number of Pods changed. There are 4 Pods now, with different IP addresses.|
+|`kubectl describe deployments/<deployment_name>`| The change was registered in the Deployment events log. To check that, use the describe command|
+|`kubectl describe services/<deployment_name>`| To find out the exposed IP and Port we can use the describe service|
+|`curl $(minikube ip):$NODE_PORT`| Next, we’ll do a curl to the exposed IP and port. Execute the command multiple times. We hit a different Pod with every request. This demonstrates that the load-balancing is working.|
+|`kubectl scale deployments/<deployment_name> --replicas=2`| To scale down the Service to 2 replicas, run again the scale command.|
+|`kubectl get deployments`| List the Deployments to check if the change was applied with the get deployments command.|
+|`kubectl get pods -o wide`| The number of replicas decreased to 2. List the number of Pods, with get pods: This confirms that 2 Pods were terminated.|
 
 
 
