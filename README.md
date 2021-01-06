@@ -29,10 +29,10 @@ At first fork this repo, then go through the resources sequentially as they are 
 |Commands|Uses|
 |---------------|----|
 |`minikube version`|Check that minikube is properly installed|
-|`minikube start`|To run kubernetes cluster. You now have a running Kubernetes cluster in your online terminal. Minikube started a virtual machine for you, and a Kubernetes cluster is now running in that VM.|
-|`kubectl version`|To check if kubectl is installed properly. The client version is the kubectl version; the server version is the Kubernetes version installed on the master.|
+|`minikube start`|To run kubernetes cluster. You now have a running Kubernetes cluster in your online terminal. |
+|`kubectl version`|To check if kubectl is installed properly.|
 |`kubectl cluster-info`|To view the cluster details|
-|`kubectl get nodes`|To view the nodes in the cluster. Now we have only one node, it is ready to accept applications for deployment|
+|`kubectl get nodes`|To view the nodes in the cluster.|
 
 
 
