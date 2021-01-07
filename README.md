@@ -73,6 +73,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`kubectl describe services/<service_name>`| To find out what port was opened externally (by the NodePort option) |
 |`curl $(minikube ip):$NODE_PORT`| Now we can test that the app is exposed outside of the cluster using curl, the IP of the Node and the externally exposed port:|
 |`curl $(minikube ip):$NODE_PORT/api/articles`| |
+|`curl -X GET --user admin:admin $(minikube ip):$NODE_PORT/api/login`| |
 |`kubectl describe deployment`| The Deployment created automatically a label for our Pod. With describe deployment command you can see the name of the label:|
 |`kubectl get pods -l <label_values>`| |
 |`kubectl get pods -l run=kubernetes-bootcamp`| Let’s use this label to query our list of Pods. We’ll use the kubectl get pods command with -l as a parameter, followed by the label values:|
@@ -85,7 +86,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`curl $(minikube ip):$NODE_PORT`| This confirms that our Service was removed. To confirm that route is not exposed anymore you can curl the previously exposed IP and port: We see here that the application is up. This is because the Deployment is managing the application. To shut down the application, you would need to delete the Deployment as well.|
 |`kubectl exec -ti $POD_NAME curl localhost:8080`| You can confirm that the app is still running with a curl inside the pod:|
 
-### Step #05: Scale you app : Running multiple instances of your app
+### Step #05: Scale your app : Running multiple instances of your app
 
 |Command | Uses|
 |-------|-------|
@@ -94,12 +95,36 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`kubectl get deployments`| Now see the deployment list|
 |`kubectl get pods -o wide`| Next, let’s check if the number of Pods changed. There are 4 Pods now, with different IP addresses.|
 |`kubectl describe deployments/<deployment_name>`| The change was registered in the Deployment events log. To check that, use the describe command|
-|`kubectl describe services/<deployment_name>`| To find out the exposed IP and Port we can use the describe service|
+|`kubectl describe services/<service_name>`| To find out the exposed IP and Port we can use the describe service|
 |`curl $(minikube ip):$NODE_PORT`| Next, we’ll do a curl to the exposed IP and port. Execute the command multiple times. We hit a different Pod with every request. This demonstrates that the load-balancing is working.|
 |`kubectl scale deployments/<deployment_name> --replicas=2`| To scale down the Service to 2 replicas, run again the scale command.|
 |`kubectl get deployments`| List the Deployments to check if the change was applied with the get deployments command.|
 |`kubectl get pods -o wide`| The number of replicas decreased to 2. List the number of Pods, with get pods: This confirms that 2 Pods were terminated.|
 
+### Step #06: Update your app : Performing a Rolling update
+
+|Command | Uses|
+|--------|------|
+|`kubectl get deployments`| To list all of the deployments|
+|`kubectl get pods`| To list the running pods|
+|`kubectl describe pods`| To view the current image version of the app, look at the image field|
+|`kubectl set image deployments/<deployment_name> <new_image_version>`| To update the image of the application to version 2, use the set image command, followed by the deployment name and the new image version. The command notified the Deployment to use a different image for your app and initiated a rolling update.|
+|`kubectl get pods`| Check the status of the new Pods, and view the old one.|
+|`kubectl describe services/<service_name>`| Verify and update. First, let’s check that the App is running. To find out the exposed IP and Port we can use describe service.|
+|`curl $(minikube ip):$NODE_PORT`|  we’ll do a curl to the the exposed IP and port. We hit a different Pod with every request and we see that all Pods are running the latest version (v2).|
+|`kubectl rollout status deployments/<deployment_name>`| The update can be confirmed also by running a rollout status command.|
+|`kubectl describe pods`| To view the current image version of the app, run a describe command against the Pods. We run now version 2 of the app (look at the image field).|
+|`kubectl rollout undo deployments/<deployment_name>`| If there is no image in the repository that we deployed then we do roll back. The rollout command reverted the deployment to the previous known state (v2 of the image). Updates are versioned and you can revert to any previously know state of a Deployment.|
+|`kubectl get pods`| List again the pods|
+|`kubectl describe pods`| Check again the image deployed on them| 
+
+
+### Some intuition
+
+- `docker ps` to see the container where minikube image is running
+- `docker exec -it <minikube_container_id>` to enter the VM/container of the min
+- again do `docker ps` to see the all docker containers that are running on minikube container
+- now you can enter any specific container by doing exec and see the things.
 
 
 ### Deleting an application/deployment with kubectl
