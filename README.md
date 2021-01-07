@@ -115,6 +115,11 @@ At first fork this repo, then go through the resources sequentially as they are 
 - `git clone https://github.com/evanlucas/fish-kubectl-completions`
 - `ln -s ../fish-kubectl-completions/completions/kubectl.fish completions/`
 
+### kubectl port-forward : Forward a local port to a port on the Pod
+
+- Kubectl port-forward allows you to access and interact with internal Kubernetes cluster processes from your localhost. You can use this method to investigate issues and adjust your services locally without the need to expose them beforehand. 
+    - `kubectl port-forward pod_name pod_port:local_port`
+
 
 ## Resources
 
