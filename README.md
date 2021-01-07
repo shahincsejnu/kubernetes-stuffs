@@ -6,7 +6,7 @@ Collection of the resources sequentially for learning kubernetes.
 
 ## Kubernetes
 
-Kubernetes is container orchestration tools. It offers three most important facilities :
+Kubernetes is a container orchestration tool. It offers three most important facilities :
 
 - High Availability or No Downtime
 - Scalability or High Performance
@@ -30,7 +30,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 |Commands | Uses|
 |---------|-------|
 |`minikube version`|Check that minikube is properly installed|
-|`minikube start`|To run kubernetes cluster. You now have a running Kubernetes cluster in your online terminal. Minikube started a virtual machine for you, and a Kubernetes cluster is now running in that VM.|
+|`minikube start`|To run kubernetes cluster. You now have a running Kubernetes cluster. Minikube started a virtual machine for you, and a Kubernetes cluster is now running in that VM.|
 |`minikube ip`| To see the IP of the VM|
 |`minikube dashboard`| To see the dashboard|
 |`kubectl version`|To check if kubectl is installed properly. kubectl is configured and we can see both the version of the client and as well as the server. The client version is the kubectl version; the server version is the Kubernetes version installed on the master. You can also see details about the build.|
@@ -44,8 +44,8 @@ At first fork this repo, then go through the resources sequentially as they are 
 
 |Commands | Uses|
 |-----------|--------|
-|`kubectl create deployment <deployment_name> <app_image_location>`| To deploy your app on kubernetes. Note that, nclude the full repository url for images hosted outside Docker hub but for images from docker hube just give the repo/image_name| 
-|`kubectl create deployment restapi shahincsejnu/httpapiserver:v1.0.7`| T deploy httpapiserver image on kubernetes|
+|`kubectl create deployment <deployment_name> --image=<app_image_location>`| To deploy the app on kubernetes. Include the full repository url for images hosted outside Docker hub but for images from docker hube just give the repo/image_name:tag| 
+|`kubectl create deployment restapi --image=shahincsejnu/httpapiserver:v1.0.7`| To deploy httpapiserver:v1.0.7 image on kubernetes from dockerhub with username shahincsejnu|
 |`kubectl get deployment`| To see the list of all your deployments|
 |`kubectl proxy`| Pods that are running inside Kubernetes are running on a private, isolated network. By default they are visible from other pods and services within the same kubernetes cluster, but not outside that network. When we use kubectl, we're interacting through an API endpoint to communicate with our application. We now have a connection between our host (the online terminal) and the Kubernetes cluster. The proxy enables direct access to the API from these terminals. | 
 |`curl http://localhost:8001/`| When the kube-proxy is running to see all the endpoints in kube api server|
