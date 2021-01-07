@@ -36,6 +36,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`kubectl version`|To check if kubectl is installed properly. kubectl is configured and we can see both the version of the client and as well as the server. The client version is the kubectl version; the server version is the Kubernetes version installed on the master. You can also see details about the build.|
 |`kubectl cluster-info`|To view the cluster details|
 |`kubectl get nodes`|To view the nodes in the cluster. This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that its status is ready (it is ready to accept applications for deployment).|
+|`kubectl get all`| To list all applications and services on the cluster|
 |`minikube stop`| To halt the cluster|
 |`minikube pause`| Pause kubernetes without impacting deployed applications|
 |`minikube delete --all`| To delete all of the minikube clusters|
@@ -60,7 +61,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`kubectl logs $POD_NAME`| To print the logs from a container in a pod. Note: We don’t need to specify the container name, because we only have one container inside the pod.|
 |`kubectl exec`| To execute a command on a container in a pod|
 |`kubectl exec $POD_NAME env`| To view the list of environment variables of the pod|
-|`kubectl exec -ti $POD_NAME bash`| To start a bash session in the pod's container|
+|`kubectl exec -ti $POD_NAME <bash or sh>`| To start a bash session in the pod's container|
 |`exit`| To close your container connection, from inside the container|
 
 ### Step #04: Expose you app publicly : using a service to expose your app
@@ -99,6 +100,20 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`kubectl get deployments`| List the Deployments to check if the change was applied with the get deployments command.|
 |`kubectl get pods -o wide`| The number of replicas decreased to 2. List the number of Pods, with get pods: This confirms that 2 Pods were terminated.|
 
+
+
+### Deleting an application/deployment with kubectl
+
+- `kubectl get all` 
+- `kubectl delete <deployment_name> <deployment_related_service_name>`
+- or `kubectl delete deployment deployment_name` and then `kubectl delete servcie servcie_name`
+
+### kubectl completion for fish shell
+
+- `mkdir -p ~/.config/fish/completions`
+- `cd ~/.config/fish`
+- `git clone https://github.com/evanlucas/fish-kubectl-completions`
+- `ln -s ../fish-kubectl-completions/completions/kubectl.fish completions/`
 
 
 ## Resources
