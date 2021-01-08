@@ -40,6 +40,11 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`minikube stop`| To halt the cluster|
 |`minikube pause`| Pause kubernetes without impacting deployed applications|
 |`minikube delete --all`| To delete all of the minikube clusters|
+|`minikube delete`| To delete the minikube VM|
+|`minikube addons list`| To see the list of the currently supported addons in minikube|
+|`minikube addons enable <addons_name>`| To enable an addon|
+|`minikube addons disable <addons_name>`| To disable an addon|
+
 
 ### Step #02: Deploying an App on kubernetes using kubectl
 
@@ -126,7 +131,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 - again do `docker ps` to see the all docker containers that are running on minikube container
 - now you can enter any specific container by doing exec and see the things.
 - `kubectl describe pods <pod_name>` for seeing the specific pod information
-
+- `watch -n 1 kubectl get pods` to see the pods with updating every other second
 
 ### Deleting an application/deployment with kubectl
 
@@ -145,6 +150,18 @@ At first fork this repo, then go through the resources sequentially as they are 
 
 - Kubectl port-forward allows you to access and interact with internal Kubernetes cluster processes from your localhost. You can use this method to investigate issues and adjust your services locally without the need to expose them beforehand. 
     - `kubectl port-forward pod_name pod_port:local_port`
+
+
+## kubernetes tasks using [kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
+
+### Some important commands of kind
+
+- `kubectl config view` to see the clusters and their server and also current cluster
+- `kubectl config use-context kind-<cluster_name>` to switch to <cluster_name> cluster
+- `kubectl cluster-info --context kind-<cluster_name>` to see the <cluster_name> cluster info
+- `kind create cluster` to create a new cluster and also current cluster become this new cluster
+- `kubectl get pods --all-namespaces -o wide`
+- `kubectl get node -o wide` to see the details of node with node ip, for using `curl -X GET --user admin:admin http://<node_internal_ip>:<node_exposed_port>/api/login`
 
 
 ## Resources
