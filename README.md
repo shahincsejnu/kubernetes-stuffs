@@ -125,6 +125,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 - `docker exec -it <minikube_container_id>` to enter the VM/container of the min
 - again do `docker ps` to see the all docker containers that are running on minikube container
 - now you can enter any specific container by doing exec and see the things.
+- `kubectl describe pods <pod_name>` for seeing the specific pod information
 
 
 ### Deleting an application/deployment with kubectl
