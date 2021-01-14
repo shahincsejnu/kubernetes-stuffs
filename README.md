@@ -132,6 +132,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 - now you can enter any specific container by doing exec and see the things.
 - `kubectl describe pods <pod_name>` for seeing the specific pod information
 - `watch -n 1 kubectl get pods` to see the pods with updating every other second
+- `kubectl get pod <pod_name> -o yaml` to see the details of pod configuration yaml format
 
 ### Deleting an application/deployment with kubectl
 
@@ -162,6 +163,14 @@ At first fork this repo, then go through the resources sequentially as they are 
 - `kind create cluster` to create a new cluster and also current cluster become this new cluster
 - `kubectl get pods --all-namespaces -o wide`
 - `kubectl get node -o wide` to see the details of node with node ip, for using `curl -X GET --user admin:admin http://<node_internal_ip>:<node_exposed_port>/api/login`
+
+
+### K8s API
+There are multiple api in k8s and many more are coming over the time.
+
+- `kubectl api-resources` To get the list of api resources, to know which resources are in the under of which API
+- `kubectl api-versions` Will tell you which version is to use to create specific resource
+- `kubectl explain <name_of_an_api_resources>` explain exactly what you want to have in the YAML file to create <name_of_an_api_resources>
 
 
 ## Resources
@@ -234,11 +243,22 @@ At first fork this repo, then go through the resources sequentially as they are 
     - [ ] ConfigMap and Secret: 
         - [ ] https://www.youtube.com/watch?v=FAnQTgr04mU
         
-2. Topics
+2. Topic wise Tutorials
     - [ ] Overview 
-        - [ ] What is Kubernetes
-        - [ ] Kubernetes Components
-        - [ ] The Kubernetes API
+        - [x] What is Kubernetes
+            - [x] https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+            - [x] https://www.youtube.com/watch?v=VnvRFRk_51k&t=1s
+        - [x] Kubernetes Components
+            - [x] https://kubernetes.io/docs/concepts/overview/components/
+            - [x] https://www.youtube.com/watch?v=8C_SCDbUJTg
+            - [x] https://www.youtube.com/watch?v=Krpb44XR0bk
+            - [x] https://www.youtube.com/watch?v=umXEmn3cMWY
+            - [x] https://www.youtube.com/watch?v=_3NUI5vasPk&t=780s
+        - [x] The Kubernetes API
+            - [x] https://kubernetes.io/docs/concepts/overview/kubernetes-api/
+            - [x] https://www.youtube.com/watch?v=6CeFDkyZGKc
+            - [x] https://www.youtube.com/watch?v=xQMXYO3nN30
+            - [x] https://www.youtube.com/watch?v=P7QAfjdbogY
         - [ ] Working with Kubernetes Objects
             - [ ] Understanding Kubernetes Objects
             - [ ] Kubernetes Object Management
