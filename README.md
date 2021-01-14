@@ -163,6 +163,13 @@ At first fork this repo, then go through the resources sequentially as they are 
 - `kind create cluster` to create a new cluster and also current cluster become this new cluster
 - `kubectl get pods --all-namespaces -o wide`
 - `kubectl get node -o wide` to see the details of node with node ip, for using `curl -X GET --user admin:admin http://<node_internal_ip>:<node_exposed_port>/api/login`
+- `kubectl get deployment/pod/service <deployment/pod/service_name> -o yaml` to see the deployment/pod/service configuration of <deployment/pod/service_name> in yaml format
+- `kubectl get deployment/pod/service <deployment/pod/service_name> -o yaml > <file_name>.yaml` to see the deployment/pod/service configuration of <deployment/pod/service_name> in yaml format and save it to a yaml file in the current directory.
+
+### deployment and service through yaml
+
+- `kubectl apply -f <deployment/service_file_name>.yaml` to create a deployment/service
+- `kubectl apply -k <directory/folder_where_the_yaml_exists>` to create all the yaml in one command 
 
 
 ### K8s API
