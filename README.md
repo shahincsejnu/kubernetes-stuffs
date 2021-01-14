@@ -222,7 +222,7 @@ There are multiple api in k8s and many more are coming over the time.
     - [x] Kubernetes Configuration(YAML) File:
         - [x] https://www.youtube.com/watch?v=qmDzcu5uY1I&t=2s
     - [ ] Kubernetes Services:
-        - [ ] https://www.youtube.com/watch?v=5lzUpDtmWgM
+        - [x] https://www.youtube.com/watch?v=5lzUpDtmWgM
         - [ ] https://www.youtube.com/watch?v=J30_ZdaEXbw
             - [ ] https://www.youtube.com/watch?v=eth7osiCryc (NodePort)
             - [ ] https://www.youtube.com/watch?v=dVDElh_Kd48&t=25s(ClusterIP)
