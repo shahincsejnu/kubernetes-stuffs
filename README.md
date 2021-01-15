@@ -266,15 +266,40 @@ There are multiple api in k8s and many more are coming over the time.
             - [x] https://www.youtube.com/watch?v=6CeFDkyZGKc
             - [x] https://www.youtube.com/watch?v=xQMXYO3nN30
             - [x] https://www.youtube.com/watch?v=P7QAfjdbogY
-        - [ ] Working with Kubernetes Objects
-            - [ ] Understanding Kubernetes Objects
-            - [ ] Kubernetes Object Management
-            - [ ] Object Names and IDs
-            - [ ] Namespaces
-            - [ ] Labels and Selectors
-            - [ ] Annotations
-            - [ ] Field Selectors
-            - [ ] Recommended Labels
+        - [x] Working with Kubernetes Objects
+            - [x] Understanding Kubernetes Objects
+                - [x] https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/
+                - [x] https://www.youtube.com/watch?v=V96gLdlHXng
+            - [x] Kubernetes Object Management
+                - [x] https://kubernetes.io/docs/concepts/overview/working-with-objects/object-management/
+                - [x] https://www.youtube.com/watch?v=vRcQOZLnKUk
+            - [x] Object Names and IDs
+                - [x] https://kubernetes.io/docs/concepts/overview/working-with-objects/names/
+                - [x] https://www.youtube.com/watch?v=W5xHec3_Tts
+                - [x] https://www.youtube.com/watch?v=ohSUtEfDefc
+            - [x] Namespaces
+                - [x] https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
+                - [x] https://www.youtube.com/watch?v=K3jNo4z5Jx8
+                - [x] https://www.youtube.com/watch?v=xpnZX3if9Tc
+            - [x] Labels and Selectors
+                - [x] https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
+                - [x] https://www.youtube.com/watch?v=MHPojgrgMfQ
+                - [x] https://www.youtube.com/watch?v=zsovXtOFhDE
+                - [x] https://www.youtube.com/watch?v=zOXAlT5Rkfc
+                - [x] https://www.youtube.com/watch?v=P2nmM0uwRfk
+            - [x] Annotations
+                - [x] https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/
+                - [x] https://www.youtube.com/watch?v=JIaY9AXq_zM
+                - [x] https://www.youtube.com/watch?v=xVcyVpxkJrk
+            - [x] Field Selectors
+                - [x] https://kubernetes.io/docs/concepts/overview/working-with-objects/field-selectors/
+                - [x] https://www.youtube.com/watch?v=zsovXtOFhDE
+            - [x] Recommended Labels
+                - [x] https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/
+    - [x] YAML and Configuration
+        - [x] [Kubernetes YAML File Explained - Deployment and Service](https://www.youtube.com/watch?v=qmDzcu5uY1I)
+        - [x] [Yaml Tutorial](https://www.youtube.com/watch?v=1uFVr15xDGg)
+        - [x] [Kubernetes Deployment Tutorial - yaml explained](https://www.youtube.com/watch?v=y_vy9NVeCzo)
     - [ ] Cluster Architecture
         - [ ] Nodes
         - [ ] Control Panel-Node Communication
