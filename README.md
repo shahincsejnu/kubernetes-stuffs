@@ -165,6 +165,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 - `kubectl get node -o wide` to see the details of node with node ip, for using `curl -X GET --user admin:admin http://<node_internal_ip>:<node_exposed_port>/api/login`
 - `kubectl get deployment/pod/service <deployment/pod/service_name> -o yaml` to see the deployment/pod/service configuration of <deployment/pod/service_name> in yaml format
 - `kubectl get deployment/pod/service <deployment/pod/service_name> -o yaml > <file_name>.yaml` to see the deployment/pod/service configuration of <deployment/pod/service_name> in yaml format and save it to a yaml file in the current directory.
+- `kubectl get pods --show-lables` to show the pods with their label names
 
 ### deployment and service through yaml
 
@@ -241,8 +242,8 @@ There are multiple api in k8s and many more are coming over the time.
     - [ ] Controllers:
         - [ ] https://www.youtube.com/playlist?list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ (Watch the videos on following topics from this playlist -  ReplicaSet, ReplicationController, Deployments, DaemonSet, Jobs)
         - [ ] https://www.youtube.com/watch?v=pPQKAR1pA9U (StatefulSet)
-    - [ ] Kubernetes Namespaces: 
-        - [ ] https://www.youtube.com/watch?v=VnvRFRk_51k
+    - [x] Kubernetes Namespaces: 
+        - [x] https://www.youtube.com/watch?v=VnvRFRk_51k
     - [ ] Storage
         - [ ] https://www.youtube.com/watch?v=0swOh5C3OVM (Volume, PV and PVC)
         - [ ] https://www.youtube.com/watch?v=TnfvE8o9wmg ( Volume)
@@ -251,7 +252,7 @@ There are multiple api in k8s and many more are coming over the time.
         - [ ] https://www.youtube.com/watch?v=FAnQTgr04mU
         
 2. Topic wise Tutorials
-    - [ ] Overview 
+    - [x] Overview 
         - [x] What is Kubernetes
             - [x] https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
             - [x] https://www.youtube.com/watch?v=VnvRFRk_51k&t=1s
