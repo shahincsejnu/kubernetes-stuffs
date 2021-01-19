@@ -16,6 +16,8 @@ Kubernetes is a container orchestration tool. It offers three most important fac
 
 At first fork this repo, then go through the resources sequentially as they are given. Everytime when you complete a tutorial tick the checkbox by giving `x` in the `- [ ]` eg. `- [x]` and then push that to your forked repo, by this way you can track your progress.
 
+## [Cheat Sheet of Kubernetes](https://github.com/dennyzhang/cheatsheet-kubernetes-A4)
+
 ## Installation
 
 - [x] Install [minikube](https://minikube.sigs.k8s.io/docs/start/)
@@ -157,6 +159,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 
 ### Some important commands of kind
 
+- `cat ~/.kube/config` to print the configuration of kubernetes for the clusters
 - `kubectl config view` to see the clusters and their server and also current cluster
 - `kubectl config use-context kind-<cluster_name>` to switch to <cluster_name> cluster
 - `kubectl cluster-info --context kind-<cluster_name>` to see the <cluster_name> cluster info
@@ -301,11 +304,27 @@ There are multiple api in k8s and many more are coming over the time.
         - [x] [Kubernetes YAML File Explained - Deployment and Service](https://www.youtube.com/watch?v=qmDzcu5uY1I)
         - [x] [Yaml Tutorial](https://www.youtube.com/watch?v=1uFVr15xDGg)
         - [x] [Kubernetes Deployment Tutorial - yaml explained](https://www.youtube.com/watch?v=y_vy9NVeCzo)
-    - [ ] Cluster Architecture
-        - [ ] Nodes
-        - [ ] Control Panel-Node Communication
-        - [ ] Controllers
-        - [ ] Cloud Controller Manager
+    - [x] Cluster Architecture
+        - [x] Nodes
+            - [x] https://kubernetes.io/docs/concepts/architecture/nodes/
+            - [x] https://www.youtube.com/watch?v=xhwi3zIVR-8
+            - [x] https://www.youtube.com/watch?v=mAaSZwPfKA0
+            - [x] https://www.youtube.com/watch?v=6xJwQgDnMFE
+            - [x] https://www.youtube.com/watch?v=XJufs3ZZBVY
+        - [x] Control Panel-Node Communication
+            - [x] https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/
+            - [x] https://www.youtube.com/watch?v=uYSh1J2HxXE
+            - [x] https://www.youtube.com/watch?v=VQUZF6k6g88
+            - [x] https://www.youtube.com/watch?v=XNEI4AsSC7s
+            - [x] https://www.youtube.com/watch?v=27v36t-3afQ
+            - [x] https://www.youtube.com/watch?v=zCXiXKMqnuE
+            - [x] https://www.youtube.com/watch?v=flg_A6YHlZo
+        - [x] Controllers
+            - [x] https://kubernetes.io/docs/concepts/architecture/controller/
+            - [x] https://www.youtube.com/watch?v=55qGFj6kuOg
+        - [x] Cloud Controller Manager
+            - [x] https://kubernetes.io/docs/concepts/architecture/cloud-controller/
+            - [x] https://www.youtube.com/watch?v=mOE1O3dQiUY
     - [ ] Containers
         - [ ] Images
         - [ ] Container Environments
