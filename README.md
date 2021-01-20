@@ -253,6 +253,7 @@ There are multiple api in k8s and many more are coming over the time.
         - [ ] https://www.youtube.com/watch?v=x2sMWUkasoE&t=10s (PV and PVC)
     - [ ] ConfigMap and Secret: 
         - [ ] https://www.youtube.com/watch?v=FAnQTgr04mU
+    - [x] [How to Set Environment Variable in Pod's Container](https://www.youtube.com/watch?v=kVvauwwf3nM)
         
 2. Topic wise Tutorials
     - [x] Overview 
@@ -325,11 +326,26 @@ There are multiple api in k8s and many more are coming over the time.
         - [x] Cloud Controller Manager
             - [x] https://kubernetes.io/docs/concepts/architecture/cloud-controller/
             - [x] https://www.youtube.com/watch?v=mOE1O3dQiUY
-    - [ ] Containers
-        - [ ] Images
-        - [ ] Container Environments
-        - [ ] Runtime Class
-        - [ ] Container Lifecycle Hooks
+    - [x] Containers
+        - [x] https://www.youtube.com/watch?v=gFozhTXOx18
+        - [x] https://www.youtube.com/watch?v=5cNrTU6o3Fw
+        - [x] https://www.youtube.com/watch?v=VqLcWftIaQI
+        - [x] https://www.youtube.com/watch?v=wuhxSLapDe0
+        - [x] Images
+            - [x] https://kubernetes.io/docs/concepts/containers/images/
+            - [x] https://www.youtube.com/watch?v=asIS4KIs40M
+        - [x] Container Environments
+            - [x] https://kubernetes.io/docs/concepts/containers/container-environment/
+        - [x] Runtime Class
+            - [x] https://kubernetes.io/docs/concepts/containers/runtime-class/
+            - [x] https://www.youtube.com/watch?v=wSEJclx-kdk
+            - [x] https://www.youtube.com/watch?v=RyXL1zOa8Bw
+        - [x] Container Lifecycle Hooks
+            - [x] https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/
+            - [x] https://www.youtube.com/watch?v=YC0F7cOf0gE
+            - [x] https://www.youtube.com/watch?v=wlYESb124xM
+            - [x] https://www.youtube.com/watch?v=EGSIbjM1wh0
+            - [x] https://www.youtube.com/watch?v=QLMPQPvMOH4
     - [ ] Workloads
         - [ ] Pods
             - [ ] Pod Lifecycle
