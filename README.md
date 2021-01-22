@@ -346,14 +346,30 @@ There are multiple api in k8s and many more are coming over the time.
             - [x] https://www.youtube.com/watch?v=wlYESb124xM
             - [x] https://www.youtube.com/watch?v=EGSIbjM1wh0
             - [x] https://www.youtube.com/watch?v=QLMPQPvMOH4
-    - [ ] Workloads
-        - [ ] Pods
-            - [ ] Pod Lifecycle
-            - [ ] Init Containers
-            - [ ] Pod Topology Spread Constraints
-            - [ ] Pod Presets
-            - [ ] Disruptions
-            - [ ] Ephemeral Containers
+    - [x] Workloads
+        - [x] https://kubernetes.io/docs/concepts/workloads/
+        - [x] Pods
+            - [x] https://kubernetes.io/docs/concepts/workloads/pods/
+            - [x] https://www.youtube.com/watch?v=6uvHVVNq34w&t=983s
+            - [x] https://www.youtube.com/watch?v=5cNrTU6o3Fw
+            - [x] Pod Lifecycle
+                - [x] https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
+                - [x] https://www.youtube.com/watch?v=wlYESb124xM
+            - [x] Init Containers
+                - [x] https://kubernetes.io/docs/concepts/workloads/pods/init-containers/
+                - [x] https://www.youtube.com/watch?v=njRtjQwuAMo
+                - [x] https://www.youtube.com/watch?v=J4S_MfsCPHo
+            - [x] Pod Topology Spread Constraints
+                - [x] https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/
+            - [x] Pod Presets
+                - [x] https://v1-18.docs.kubernetes.io/docs/concepts/workloads/pods/podpreset/
+                - [x] https://www.youtube.com/watch?v=0yB7vVAmLOs
+                - [x] https://www.youtube.com/watch?v=LwW6KafpTKM
+            - [x] Disruptions
+                - [x] https://kubernetes.io/docs/concepts/workloads/pods/disruptions/
+            - [x] Ephemeral Containers
+                 - [x] https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/
+                 - [x] https://www.youtube.com/watch?v=mQ60Jm4wgFU
         - [ ] Controllers
             - [ ] ReplicaSet
             - [ ] ReplicationController
