@@ -194,7 +194,7 @@ There are multiple api in k8s and many more are coming over the time.
     - [x] Scale up your app
     - [x] Update your app
     
-- [ ] Install `minikube` and run all six kubernetes basics modules in locally
+- [x] Install `minikube` and run all six kubernetes basics modules in locally
     
 - Video Tutorials from Youtube
     - [x] [Kubernetes Architecture Simplified | K8s Explained in 10 Minutes](https://www.youtube.com/watch?v=8C_SCDbUJTg&pbjreload=101)
