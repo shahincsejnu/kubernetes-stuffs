@@ -359,6 +359,7 @@ There are multiple api in k8s and many more are coming over the time.
                 - [x] https://kubernetes.io/docs/concepts/workloads/pods/init-containers/
                 - [x] https://www.youtube.com/watch?v=njRtjQwuAMo
                 - [x] https://www.youtube.com/watch?v=J4S_MfsCPHo
+                - [x] https://en.wikipedia.org/wiki/Idempotence
             - [x] Pod Topology Spread Constraints
                 - [x] https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/
             - [x] Pod Presets
