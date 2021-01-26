@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+ephemeralContainers:
+  -
+    command:
+      - sh
+    image: busybox
+    imagePullPolicy: IfNotPresent
+    name: debugger
+    stdin: true
+    terminationMessagePolicy: File
+    tty: true
+kind: EphemeralContainers
+metadata:
+  name: apiserver-6f649d8c69-dsrjz

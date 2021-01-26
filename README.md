@@ -371,16 +371,37 @@ There are multiple api in k8s and many more are coming over the time.
             - [x] Ephemeral Containers
                  - [x] https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/
                  - [x] https://www.youtube.com/watch?v=mQ60Jm4wgFU
-        - [ ] Controllers
-            - [ ] ReplicaSet
-            - [ ] ReplicationController
-            - [ ] Deployments
-            - [ ] StatefulSets
-            - [ ] DaemonSet
-            - [ ] Jobs
-            - [ ] Garbage Collection
-            - [ ] TTL Controller for Finished Resources
-            - [ ] CronJob
+        - [x] Controllers/Workload Resources
+            - [x] Deployments
+                - [x] https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+                - [x] https://www.youtube.com/watch?v=mNK14yXIZF4
+                - [x] https://www.youtube.com/watch?v=EQNO_kM96Mo
+                - [x] https://www.youtube.com/watch?v=HPutXDwSWM0&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=21&t=7s
+            - [x] ReplicaSet
+                - [x] https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
+                - [x] https://www.youtube.com/watch?v=1As1CPuyTao
+                - [x] https://www.youtube.com/watch?v=1WM-LsH6tKc&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=20
+            - [x] StatefulSets
+                - [x] https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
+                - [x] https://www.youtube.com/watch?v=pPQKAR1pA9U
+            - [x] DaemonSet
+                - [x] https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
+                - [x] https://www.youtube.com/watch?v=yYeUic8B6fM
+            - [x] Jobs
+                - [x] https://kubernetes.io/docs/concepts/workloads/controllers/job/
+                - [x] https://www.youtube.com/watch?v=j1EnBbxSz64
+                - [x] https://www.youtube.com/watch?v=O1iEBzY7-ok
+            - [x] Garbage Collection
+                - [x] https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection/
+            - [x] TTL Controller for Finished Resources
+                - [x] https://kubernetes.io/docs/concepts/workloads/controllers/ttlafterfinished/
+            - [x] CronJob
+                - [x] https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
+                - [x] https://www.youtube.com/watch?v=PUhqw0laR3A
+                - [x] https://www.youtube.com/watch?v=OZAhYSDkhsI
+            - [x] ReplicationController
+                - [x] https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/
+                - [x] https://www.youtube.com/watch?v=Y5ADo_tjfIs&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=19
     - [ ] Services, Load Balancing, and Networking
         - [ ] Service
         - [ ] Service Topology
