@@ -234,9 +234,9 @@ There are multiple api in k8s and many more are coming over the time.
         - [x] https://www.youtube.com/watch?v=qmDzcu5uY1I&t=2s
     - [ ] Kubernetes Services:
         - [x] https://www.youtube.com/watch?v=5lzUpDtmWgM
-        - [ ] https://www.youtube.com/watch?v=J30_ZdaEXbw
-            - [ ] https://www.youtube.com/watch?v=eth7osiCryc (NodePort)
-            - [ ] https://www.youtube.com/watch?v=dVDElh_Kd48&t=25s(ClusterIP)
+        - [x] https://www.youtube.com/watch?v=J30_ZdaEXbw
+            - [x] https://www.youtube.com/watch?v=eth7osiCryc (NodePort)
+            - [x] https://www.youtube.com/watch?v=dVDElh_Kd48&t=25s(ClusterIP)
         - [ ] Ingress:
             - [ ] https://www.youtube.com/watch?v=80Ew_fsV4rM&t=671s
             - [ ] https://www.youtube.com/watch?v=VicH6KojwCI
@@ -384,6 +384,10 @@ There are multiple api in k8s and many more are coming over the time.
             - [x] StatefulSets
                 - [x] https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
                 - [x] https://www.youtube.com/watch?v=pPQKAR1pA9U
+                - [x] https://www.youtube.com/watch?v=Vrxr-7rjkvM
+                - [x] https://www.youtube.com/watch?v=zj6r_EEhv6s
+                - [x] https://www.youtube.com/watch?v=GieXzb91I40
+                - [x] https://www.youtube.com/watch?v=wR-zKkqRhz8
             - [x] DaemonSet
                 - [x] https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
                 - [x] https://www.youtube.com/watch?v=yYeUic8B6fM
@@ -403,7 +407,14 @@ There are multiple api in k8s and many more are coming over the time.
                 - [x] https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/
                 - [x] https://www.youtube.com/watch?v=Y5ADo_tjfIs&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=19
     - [ ] Services, Load Balancing, and Networking
-        - [ ] Service
+        - [x] Service
+            - [x] https://kubernetes.io/docs/concepts/services-networking/service/
+            - [x] https://www.youtube.com/watch?v=T4Z7visMM4E&t=22s
+            - [x] https://www.youtube.com/watch?v=J30_ZdaEXbw
+            - [x] https://www.youtube.com/watch?v=5lzUpDtmWgM
+            - [x] https://www.youtube.com/watch?v=dVDElh_Kd48&t=25s
+            - [x] https://www.youtube.com/watch?v=eth7osiCryc
+            - [x] https://www.youtube.com/watch?v=NFApeJRXos4
         - [ ] Service Topology
         - [ ] EndpointSlices
         - [ ] DNS for Services and Pods
