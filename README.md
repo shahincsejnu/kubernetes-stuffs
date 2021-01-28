@@ -454,5 +454,7 @@ There are multiple api in k8s and many more are coming over the time.
         - [ ] Volume Snapshot Classes 03
         - [ ] Dynamic Volume Provisioning 04
         - [ ] Node-specific Volume Limits 05
-
+    - [ ] Others
+        - [ ] [Yaml Techniques](https://github.com/helm/helm/blob/v2.16.5/docs/chart_template_guide/yaml_techniques.md)
+        
     
