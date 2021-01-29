@@ -408,17 +408,36 @@ There are multiple api in k8s and many more are coming over the time.
                 - [x] https://www.youtube.com/watch?v=Y5ADo_tjfIs&list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ&index=19
     - [ ] Services, Load Balancing, and Networking
         - [x] Service
+            - [x] https://www.youtube.com/watch?v=l-h7QIQX-cA
+            - [x] https://www.youtube.com/watch?v=ty9tEghAbR0
             - [x] https://kubernetes.io/docs/concepts/services-networking/service/
             - [x] https://www.youtube.com/watch?v=T4Z7visMM4E&t=22s
             - [x] https://www.youtube.com/watch?v=J30_ZdaEXbw
+            - [x] https://www.youtube.com/watch?v=xCsz9IOt-fs
             - [x] https://www.youtube.com/watch?v=5lzUpDtmWgM
             - [x] https://www.youtube.com/watch?v=dVDElh_Kd48&t=25s
             - [x] https://www.youtube.com/watch?v=eth7osiCryc
             - [x] https://www.youtube.com/watch?v=NFApeJRXos4
-        - [ ] Service Topology
-        - [ ] EndpointSlices
-        - [ ] DNS for Services and Pods
-        - [ ] Connecting Applications with Services
+        - [x] Service Topology
+            - [x] https://kubernetes.io/docs/concepts/services-networking/service-topology/
+            - [x] https://www.youtube.com/watch?v=7BZWkaqQWlc
+            - [x] https://www.youtube.com/watch?v=wCeHg_FIs4g
+        - [x] DNS for Services and Pods
+            - [x] https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/
+            - [x] https://www.youtube.com/watch?v=NFApeJRXos4
+            - [x] https://www.youtube.com/watch?v=VR8ep5Wf_MA
+            - [x] https://www.youtube.com/watch?v=2UancDkYJKM
+            - [x] https://www.youtube.com/watch?v=osN5P2vWWvo
+        - [x] Connecting Applications with Services
+            - [x] https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/
+            - [x] https://www.youtube.com/watch?v=OaXWwBLqugk
+            - [x] https://www.youtube.com/watch?v=qYzTRcp51GE
+            - [x] https://www.youtube.com/watch?v=RL-8S_K7xpc
+        - [x] EndpointSlices
+            - [x] https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/
+            - [x] https://www.youtube.com/watch?v=f3xusisgp74
+            - [x] https://www.youtube.com/watch?v=fvpq4jqtuZ8
+            - [x] https://nigelpoulton.com/blog/f/kubernetes-endpoint-slices-explained
         - [ ] Ingress
         - [ ] Ingress Controllers
         - [ ] Network Policies
@@ -467,5 +486,5 @@ There are multiple api in k8s and many more are coming over the time.
         - [ ] Node-specific Volume Limits 05
     - [ ] Others
         - [ ] [Yaml Techniques](https://github.com/helm/helm/blob/v2.16.5/docs/chart_template_guide/yaml_techniques.md)
-        
+        - [x] https://www.youtube.com/watch?v=Pv5yKnOGSSc&list=PLoiT1Gv2KR1gE-WK7dIQ5bsJ_RAVZnzP8&index=7
     
