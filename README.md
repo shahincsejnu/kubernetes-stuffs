@@ -501,3 +501,4 @@ There are multiple api in k8s and many more are coming over the time.
         - [ ] [Yaml Techniques](https://github.com/helm/helm/blob/v2.16.5/docs/chart_template_guide/yaml_techniques.md)
         - [x] https://www.youtube.com/watch?v=Pv5yKnOGSSc&list=PLoiT1Gv2KR1gE-WK7dIQ5bsJ_RAVZnzP8&index=7
         - [x] [Kubernetes Networking Related Some Excellent Articles](https://cloudnativelabs.github.io/)
+        - [x] [Setting Up an Ingress Controller](https://kind.sigs.k8s.io/docs/user/ingress/)
