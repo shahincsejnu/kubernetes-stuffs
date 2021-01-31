@@ -438,11 +438,24 @@ There are multiple api in k8s and many more are coming over the time.
             - [x] https://www.youtube.com/watch?v=f3xusisgp74
             - [x] https://www.youtube.com/watch?v=fvpq4jqtuZ8
             - [x] https://nigelpoulton.com/blog/f/kubernetes-endpoint-slices-explained
-        - [ ] Ingress
-        - [ ] Ingress Controllers
-        - [ ] Network Policies
-        - [ ] Adding entries to Pos/etc/hosts with HostAliases
-        - [ ] IPv4/IPv6 dual-stack
+        - [x] Ingress
+             - [x] https://kubernetes.io/docs/concepts/services-networking/ingress/
+             - [x] https://www.youtube.com/watch?v=80Ew_fsV4rM&t=671s
+             - [x] https://www.youtube.com/watch?v=NPFbYpb0I7w
+             - [x] https://www.youtube.com/watch?v=_BbxJGiMtL8
+             - [x] https://www.youtube.com/watch?v=40VfZ_nIFWI
+             - [x] https://www.youtube.com/watch?v=GhZi4DxaxxE
+        - [x] Ingress Controllers
+            - [x] https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/
+        - [x] Network Policies
+            - [x] https://kubernetes.io/docs/concepts/services-networking/network-policies/
+            - [x] https://www.youtube.com/watch?v=v7_XvCW6U48
+        - [x] Adding entries to Pos/etc/hosts with HostAliases
+            - [x] https://kubernetes.io/docs/concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases/
+        - [x] IPv4/IPv6 dual-stack
+            - [x] https://kubernetes.io/docs/concepts/services-networking/dual-stack/
+            - [x] https://www.youtube.com/watch?v=8KHSIWy_jIM
+            - [x] https://www.youtube.com/watch?v=o-oMegdZcg4
     - [ ] Storage
         - [ ] Volumes
         - [ ] Persistent Volumes
@@ -487,4 +500,4 @@ There are multiple api in k8s and many more are coming over the time.
     - [ ] Others
         - [ ] [Yaml Techniques](https://github.com/helm/helm/blob/v2.16.5/docs/chart_template_guide/yaml_techniques.md)
         - [x] https://www.youtube.com/watch?v=Pv5yKnOGSSc&list=PLoiT1Gv2KR1gE-WK7dIQ5bsJ_RAVZnzP8&index=7
-    
+        - [x] [Kubernetes Networking Related Some Excellent Articles](https://cloudnativelabs.github.io/)
