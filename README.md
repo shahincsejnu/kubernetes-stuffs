@@ -456,15 +456,38 @@ There are multiple api in k8s and many more are coming over the time.
             - [x] https://kubernetes.io/docs/concepts/services-networking/dual-stack/
             - [x] https://www.youtube.com/watch?v=8KHSIWy_jIM
             - [x] https://www.youtube.com/watch?v=o-oMegdZcg4
-    - [ ] Storage
-        - [ ] Volumes
-        - [ ] Persistent Volumes
-        - [ ] Volume Snapshots
-        - [ ] CSI Volume Cloning
-        - [ ] Storage Classes
-        - [ ] Volume Snapshot Classes
-        - [ ] Dynamic Volume Provisioning
-        - [ ] Node-specific Volume Limits
+    - [x] Storage
+        - [x] Volumes
+            - [x] https://kubernetes.io/docs/concepts/storage/volumes/#hostpath
+            - [x] https://www.youtube.com/watch?v=TnfvE8o9wmg
+            - [x] https://www.youtube.com/watch?v=6K6gSwJcuV4
+            - [x] https://www.youtube.com/watch?v=gVuYmOlnu3A&t=547s
+            - [x] https://www.youtube.com/watch?v=PdKwTlkWi14
+            - [x] https://www.youtube.com/watch?v=FAnQTgr04mU
+            - [x] https://www.youtube.com/watch?v=0swOh5C3OVM&t=422s
+            - [x] https://www.youtube.com/watch?v=VB7vI9OT-WQ
+            - [x] https://www.youtube.com/watch?v=OulmwTYTauI
+        - [x] Persistent Volumes
+            - [x] https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+            - [x] https://www.youtube.com/watch?v=x2sMWUkasoE&t=11s
+        - [x] Volume Snapshots
+            - [x] https://kubernetes.io/docs/concepts/storage/volume-snapshots/
+        - [x] CSI Volume Cloning
+            - [x] https://kubernetes.io/docs/concepts/storage/volume-pvc-datasource/
+        - [x] Storage Classes
+            - [x] https://kubernetes.io/docs/concepts/storage/storage-classes/
+        - [x] Volume Snapshot Classes
+            - [x] https://kubernetes.io/docs/concepts/storage/volume-snapshot-classes/
+        - [x] Dynamic Volume Provisioning
+            - [x] https://kubernetes.io/docs/concepts/storage/dynamic-provisioning/
+            - [x] https://www.youtube.com/watch?v=XSNuDl3wHuc&t=75s
+            - [x] https://www.youtube.com/watch?v=LQjQvN_HXvY&t=80s
+        - [x] Storage Capacity
+            - [x] https://kubernetes.io/docs/concepts/storage/storage-capacity/
+        - [x] Ephemeral Volumes
+            - [x] https://kubernetes.io/docs/concepts/storage/ephemeral-volumes/
+        - [x] Node-specific Volume Limits
+            - [x] https://kubernetes.io/docs/concepts/storage/storage-limits/
     - [ ] Configuration
         - [ ] Configuration Best Practices
         - [ ] ConfigMaps
