@@ -232,25 +232,25 @@ There are multiple api in k8s and many more are coming over the time.
         - [x] https://www.youtube.com/watch?v=6uvHVVNq34w&t=983s
     - [x] Kubernetes Configuration(YAML) File:
         - [x] https://www.youtube.com/watch?v=qmDzcu5uY1I&t=2s
-    - [ ] Kubernetes Services:
+    - [x] Kubernetes Services:
         - [x] https://www.youtube.com/watch?v=5lzUpDtmWgM
         - [x] https://www.youtube.com/watch?v=J30_ZdaEXbw
             - [x] https://www.youtube.com/watch?v=eth7osiCryc (NodePort)
             - [x] https://www.youtube.com/watch?v=dVDElh_Kd48&t=25s(ClusterIP)
-        - [ ] Ingress:
-            - [ ] https://www.youtube.com/watch?v=80Ew_fsV4rM&t=671s
-            - [ ] https://www.youtube.com/watch?v=VicH6KojwCI
-        - [ ] EndPoint Slices:
-            - [ ] https://nigelpoulton.com/blog/f/kubernetes-endpoint-slices-explained
-    - [ ] Controllers:
-        - [ ] https://www.youtube.com/playlist?list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ (Watch the videos on following topics from this playlist -  ReplicaSet, ReplicationController, Deployments, DaemonSet, Jobs)
-        - [ ] https://www.youtube.com/watch?v=pPQKAR1pA9U (StatefulSet)
+        - [x] Ingress:
+            - [x] https://www.youtube.com/watch?v=80Ew_fsV4rM&t=671s
+            - [x] https://www.youtube.com/watch?v=VicH6KojwCI
+        - [x] EndPoint Slices:
+            - [x] https://nigelpoulton.com/blog/f/kubernetes-endpoint-slices-explained
+    - [x] Controllers:
+        - [x] https://www.youtube.com/playlist?list=PLMPZQTftRCS8Pp4wiiUruly5ODScvAwcQ (Watch the videos on following topics from this playlist -  ReplicaSet, ReplicationController, Deployments, DaemonSet, Jobs)
+        - [x] https://www.youtube.com/watch?v=pPQKAR1pA9U (StatefulSet)
     - [x] Kubernetes Namespaces: 
         - [x] https://www.youtube.com/watch?v=VnvRFRk_51k
-    - [ ] Storage
-        - [ ] https://www.youtube.com/watch?v=0swOh5C3OVM (Volume, PV and PVC)
-        - [ ] https://www.youtube.com/watch?v=TnfvE8o9wmg ( Volume)
-        - [ ] https://www.youtube.com/watch?v=x2sMWUkasoE&t=10s (PV and PVC)
+    - [x] Storage
+        - [x] https://www.youtube.com/watch?v=0swOh5C3OVM (Volume, PV and PVC)
+        - [x] https://www.youtube.com/watch?v=TnfvE8o9wmg ( Volume)
+        - [x] https://www.youtube.com/watch?v=x2sMWUkasoE&t=10s (PV and PVC)
     - [ ] ConfigMap and Secret: 
         - [ ] https://www.youtube.com/watch?v=FAnQTgr04mU
     - [x] [How to Set Environment Variable in Pod's Container](https://www.youtube.com/watch?v=kVvauwwf3nM)
