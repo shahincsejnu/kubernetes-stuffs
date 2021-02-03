@@ -468,9 +468,11 @@ There are multiple api in k8s and many more are coming over the time.
             - [x] https://www.youtube.com/watch?v=0swOh5C3OVM&t=422s
             - [x] https://www.youtube.com/watch?v=VB7vI9OT-WQ
             - [x] https://www.youtube.com/watch?v=OulmwTYTauI
+            - [x] https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/
         - [x] Persistent Volumes
             - [x] https://kubernetes.io/docs/concepts/storage/persistent-volumes/
             - [x] https://www.youtube.com/watch?v=x2sMWUkasoE&t=11s
+            - [x] https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
         - [x] Volume Snapshots
             - [x] https://kubernetes.io/docs/concepts/storage/volume-snapshots/
         - [x] CSI Volume Cloning
