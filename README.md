@@ -69,6 +69,7 @@ At first fork this repo, then go through the resources sequentially as they are 
 |`kubectl exec`| To execute a command on a container in a pod|
 |`kubectl exec $POD_NAME env`| To view the list of environment variables of the pod|
 |`kubectl exec -ti $POD_NAME <bash or sh>`| To start a bash session in the pod's container|
+|`kubectl exec -it <pod_name> -c <container_name> <bash or sh>`| To exec a specific container of a pod, if the container name does not provide then it will enter the deault continaer which is the first container of the pod|
 |`exit`| To close your container connection, from inside the container|
 
 ### Step #04: Expose you app publicly : using a service to expose your app
