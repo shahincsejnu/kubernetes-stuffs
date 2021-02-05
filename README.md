@@ -491,10 +491,16 @@ There are multiple api in k8s and many more are coming over the time.
             - [x] https://kubernetes.io/docs/concepts/storage/ephemeral-volumes/
         - [x] Node-specific Volume Limits
             - [x] https://kubernetes.io/docs/concepts/storage/storage-limits/
-    - [ ] Configuration
-        - [ ] Configuration Best Practices
-        - [ ] ConfigMaps
-        - [ ] Secrets
+    - [x] Configuration
+        - [x] Configuration Best Practices
+            - [x] https://kubernetes.io/docs/concepts/configuration/overview/
+        - [x] ConfigMaps
+            - [x] https://kubernetes.io/docs/concepts/configuration/configmap/
+            - [x] https://www.youtube.com/watch?v=ZatNT_oSlyc
+            - [x] https://www.youtube.com/watch?v=FAnQTgr04mU
+        - [x] Secrets
+            - [x] https://kubernetes.io/docs/concepts/configuration/secret/
+            - [x] https://www.youtube.com/watch?v=tZEKGNnvBzg
         - [ ] Managing Resources for Containers
         - [ ] Pod Overhead
         - [ ] Resources Bin Packing for Extended Resources

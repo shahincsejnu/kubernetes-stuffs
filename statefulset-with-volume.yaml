@@ -34,7 +34,7 @@ spec:
         image: mysql
         env:
           - name: MYSQL_ROOT_PASSWORD
-            value: "okaoka"
+            value: "okaoka1234"
         ports:
         - containerPort: 3306
           name: db

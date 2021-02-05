@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-for-configmap-as-volume
+spec:
+  containers:
+    - name: mypod
+      image: redis
+      volumeMounts:
+        - name: foo
+          mountPath: /custom/oka
+          readOnly: true
+  volumes:
+    - name: foo
+      configMap:
+        name: game-demo
