@@ -136,6 +136,8 @@ At first fork this repo, then go through the resources sequentially as they are 
 - `kubectl describe pods <pod_name>` for seeing the specific pod information
 - `watch -n 1 kubectl get pods` to see the pods with updating every other second
 - `kubectl get pod <pod_name> -o yaml` to see the details of pod configuration yaml format
+- `kubectl get <resource_name> --v=10` for seeing the verbose (the whole things of http request)
+- `kubectl get --raw <endpoint_of_http_call>` for doing the raw call
 
 ### Deleting an application/deployment with kubectl
 
